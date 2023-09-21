@@ -1,13 +1,15 @@
 
 import './App.css'
-import StateFullForm from './components/StateFullForm/StateFullForm'
+import RefForm from './components/RefFrom/RefForm'
+// import StateFullForm from './components/StateFullForm/StateFullForm'
 
 function App() {
 
 
   return (
     <>
-      <StateFullForm></StateFullForm>
+      {/* <StateFullForm></StateFullForm> */}
+      <RefForm></RefForm>
     </>
   )
 }
